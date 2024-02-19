@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+
+    <div class="containerheart">
+        <div class="heart"></div>
+    <div class="container">
+        <div class="envelope-wrapper">
+            <div class="envelope">
+                <div class="letter">
+                    <div class="text">
+                        <strong>Dear Fofi Insani.</strong>
+                        <p>
+                            Selamat ulang tahun, Panjang umur dan sehat selalu ya pokokny wish u all the best dah
+                            berlebihan gak sih? bodo amat
+                            <p>I miss you</p>
+                            <p>Te Dua :*</p>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="hati"></div>
+        </div>
+    </div>
+    
+    <div class="slide">
+        <audio controls autoplay loop>
+            <source src="pwg.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+        </audio>
+        <div class="pict" style="background-image: url(bg.jpeg); background-size: contain;"></div>
+        <div class="pict" style="background-image: url(2.jpeg); background-size: contain;"></div>
+        <div class="pict" style="background-image: url(3.jpeg); background-size: contain;"></div>
+        <div class="pict" style="background-image: url(1.jpeg); background-size: contain;"></div>
+        </div>
+    </div>
+   
+    <script>
+        const envelope = document.querySelector('.envelope-wrapper');
+        envelope.addEventListener('click', () => {
+            envelope.classList.toggle('flap');
+        });
+    </script>
+
+    
+</body>
+</html>
