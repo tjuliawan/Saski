@@ -89,6 +89,7 @@ body {
     display: grid;
     place-items: center;
     position: fixed;
+    margin-top: 220px;
   }
   .container > .envelope-wrapper {
     background: var(--bg-envelope-color);
