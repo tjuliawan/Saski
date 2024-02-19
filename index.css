@@ -28,7 +28,7 @@ body {
     background: #761a92;
     background-size: cover;
     background-position: center;
-    overflow-y: hidden;
+    overflow-y: auto;
     overflow-x: hidden;
 }
 
