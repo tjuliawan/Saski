@@ -24,7 +24,7 @@ html {
 body {
     justify-content: center;
     align-items: center;
-    height: 100%;
+    height: auto;
     background: #761a92;
     background-size: cover;
     background-position: center;
