@@ -146,11 +146,9 @@ body {
     left: 50%;
     width: 15px;
     height: 15px;
-    background: var(--heart-color);
     z-index: 4;
     transform: translate(-50%, -20%) rotate(45deg);
     transition: transform 0.5s ease-in-out 1s;
-    box-shadow: 0 1px 6px var(--shadow-color);
     cursor: pointer;
   }
   .hati:before, 
