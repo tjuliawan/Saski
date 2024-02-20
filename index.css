@@ -31,26 +31,26 @@ body {
   
   @keyframes changeBackground {
   0% {
-    background-image: url('foto/1.jpeg'); /* Gambar awal */
+    background-image: url('1.jpeg'); /* Gambar awal */
   }
 
   19% {
-    background-image: url('foto/2.jpeg'); /* Gambar berikutnya */
+    background-image: url('2.jpeg'); /* Gambar berikutnya */
   }
 
   38% {
-    background-image: url('foto/3.jpeg'); /* Gambar berikutnya */
+    background-image: url('3.jpeg'); /* Gambar berikutnya */
   }
 
   57% {
-    background-image: url('foto/4.jpeg'); /* Gambar berikutnya */
+    background-image: url('4.jpeg'); /* Gambar berikutnya */
   }
 
   79% {
-    background-image: url('foto/5.jpeg'); /* Gambar awal kembali */
+    background-image: url('5.jpeg'); /* Gambar awal kembali */
   }
   100%{
-    background-image: url(foto/6.jpeg);
+    background-image: url('6.jpeg');
   }
 }
 
