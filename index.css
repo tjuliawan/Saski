@@ -31,7 +31,7 @@ body {
   
   @keyframes changeBackground {
   0% {
-    background-image: url('1.jpg'); /* Gambar awal */
+    background-image: url('1.png'); /* Gambar awal */
   }
 
   19% {
